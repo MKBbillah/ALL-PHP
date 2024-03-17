@@ -1,23 +1,15 @@
 <?php
 
-$GLOBALS;
+// Float Data type
 
-$person_name = "Mukarram";
+$price = 5.2236;
+var_dump($price);
 
-function getName(){
-    echo $GLOBALS['person_name'];
-}
+//Boolean Data type
 
-getName();
+$Mukarram_billah = true;
+$Mukarram = false;
 
-/* Datatype
-1. String
-2. Integer
-3. Float
-4. Boolean
-5. Array
-6. Object
-7. Null
-8. Resource
-*/
+var_dump($Mukarram_billah);
+
 ?>
